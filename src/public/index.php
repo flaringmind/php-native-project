@@ -2,25 +2,15 @@
 
 declare(strict_types=1);
 
-require_once '../PaymentProfile.php';
-require_once '../Customer.php';
-require_once '../Transaction.php';
+require_once '../PaymentGateway/Stripe/Transaction.php';
+require_once '../PaymentGateway/Paddle/Transaction.php';
+require_once '../PaymentGateway/Paddle/CustomerProfile.php';
 
+use PaymentGateway\Paddle\{Transaction, CustomerProfile};
+use PaymentGateway\Stripe\Transaction as StripeTransaction;
 
-$transaction = (new Transaction(100, 'Transaction1'))
-    ->addTax(8)
-    ->applyDiscount(10);
+$paddleTransaction = new Transaction();
+$stripeTransaction = new StripeTransaction();
+$paddleCustomerProfile = new CustomerProfile();
 
-echo $transaction->getCustomer()?->getPaymentProfile()?->id;
-
-/*
-$jsonStr = '{"a":1, "b":2, "c":3}';
-$arr = json_decode($jsonStr, false);
-*/
-/*
-$obj = new stdClass();
-$obj->a = 1;
-$obj->b = 2;
-*/
-
-
+var_dump($paddleTransaction, $stripeTransaction);
