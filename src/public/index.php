@@ -2,26 +2,13 @@
 
 declare(strict_types=1);
 
-/*
-require_once '../app/PaymentGateway/Stripe/Transaction.php';
-require_once '../app/PaymentGateway/Paddle/Transaction.php';
-require_once '../app/PaymentGateway/Paddle/CustomerProfile.php';
-spl_autoload_register(function ($class) {
-    $path = __DIR__ . '/../' . lcfirst(str_replace('\\', '/', $class)) . '.php';
-    if (file_exists($path)) {
-        require $path;
-    }
-});
-*/
-
+use App\Enums\Status;
+use App\PaymentGateway\Paddle\Transaction;
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use App\PaymentGateway\Paddle\Transaction;
+$transaction = new Transaction();
+$transaction->setStatus(Status::PAID);
 
-$uid = new \Ramsey\Uuid\UuidFactory();
 
-echo $uid->uuid4();
-
-$paddleTransaction = new Transaction();
-var_dump($paddleTransaction);
+var_dump($transaction);
