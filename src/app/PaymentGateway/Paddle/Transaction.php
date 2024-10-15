@@ -4,28 +4,27 @@ declare(strict_types=1);
 
 namespace App\PaymentGateway\Paddle;
 
-use App\Enums\Status;
-
 class Transaction
 {
-    private static int $count = 0;
-    public function __construct(
-        public float $amount,
-        public string $description
-    ) {
-        self::$count++;
+    private float $amount;
+    public function __construct(float $amount)
+    {
+        $this->amount = $amount;
     }
 
-    public static function getCount(): int
+    public function copyFrom(Transaction $transaction)
     {
-        return self::$count;
+        var_dump($transaction->amount,$transaction->generateReceipt());
     }
 
     public function process()
     {
-        array_map(function(){
-            var_dump($this->amount);
-        }, [1]);
+        echo 'Processing $' . $this->amount;
+        $this->generateReceipt();
     }
 
+    private function generateReceipt()
+    {
+        return true;
+    }
 }
