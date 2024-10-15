@@ -2,13 +2,14 @@
 
 declare(strict_types=1);
 
-use App\Enums\Status;
 use App\PaymentGateway\Paddle\Transaction;
 
 require __DIR__ . '/../vendor/autoload.php';
 
-$transaction = new Transaction();
-$transaction->setStatus(Status::PAID);
+$transaction = new Transaction(100, 'Transaction1');
+$transaction = new Transaction(100, 'Transaction1');
+$transaction = new Transaction(100, 'Transaction1');
+$transaction = new Transaction(100, 'Transaction1');
 
 
-var_dump($transaction);
+$transaction->process();
