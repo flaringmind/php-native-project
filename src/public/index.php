@@ -4,16 +4,14 @@ declare(strict_types=1);
 
 use App\PaymentGateway\Paddle\Transaction;
 
-require __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
-$transaction = new Transaction(100);
+$fields = [
+    new \App\Text('textField'),
+    new \App\Checkbox('checkboxField'),
+    new \App\Radio('radioField'),
+];
 
-/*
-$reflectionProperty = new ReflectionProperty(Transaction::class, 'amount');
-$reflectionProperty->setAccessible(true);
-$reflectionProperty->setValue($transaction, 150);
-var_dump($reflectionProperty->getValue($transaction));
-*/
-
-$transaction->copyFrom(new Transaction(100));
-$transaction->process();
+foreach ($fields as $field) {
+    echo $field->render() . '<br />';
+}
