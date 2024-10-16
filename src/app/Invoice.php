@@ -4,20 +4,16 @@ namespace App;
 
 class Invoice
 {
-    protected function process(float $amount,$description)
+    private float $amount;
+    private int $id = 123;
+    private string $accountNumber = '23456789876543';
+
+    public function __debugInfo(): ?array
     {
-        var_dump('process');
+        return [
+            'id' => $this->id,
+            'accountNumber'=> '****' . substr($this->accountNumber, -4)
+        ];
     }
 
-    public function __call(string $name, array $arguments)
-    {
-        if (method_exists($this, $name)) {
-            call_user_func_array([$this, $name], $arguments);
-        }
-    }
-
-    public static function __callStatic(string $name, array $arguments)
-    {
-        var_dump($name, $arguments);
-    }
 }
