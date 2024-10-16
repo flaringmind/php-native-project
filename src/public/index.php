@@ -2,6 +2,11 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-$collector = new \App\DebtCollectionService();
+$invoice = new \App\Invoice(15);
 
-echo $collector->collectDebt(new \App\CollectionAgency()) . PHP_EOL;
+$invoice->amount = 15;
+var_dump(isset($invoice->amount));
+
+unset($invoice->amount);
+
+var_dump(isset($invoice->amount));

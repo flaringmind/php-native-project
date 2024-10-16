@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34d00873-2b8e-4684-abbd-a6cd145d0a2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/CollectionAgency.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/DebtCollectionService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/DebtCollector.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Renderable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Rocky.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Invoice.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Field.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Field.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +55,7 @@
       <workItem from="1728472659305" duration="16039000" />
       <workItem from="1728769239790" duration="11000" />
       <workItem from="1728900147297" duration="576000" />
-      <workItem from="1728900741959" duration="57207000" />
+      <workItem from="1728900741959" duration="64652000" />
     </task>
     <servers />
   </component>
