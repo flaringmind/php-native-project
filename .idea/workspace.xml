@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34d00873-2b8e-4684-abbd-a6cd145d0a2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/Invoice.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Invoice.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Invoice.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/app/Invoice.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,6 +43,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
     "settings.editor.selected.configurable": "preferences.sourceCode.PHP",
     "vue.rearranger.settings.migration": "true"
   }
@@ -55,7 +59,7 @@
       <workItem from="1728472659305" duration="16039000" />
       <workItem from="1728769239790" duration="11000" />
       <workItem from="1728900147297" duration="576000" />
-      <workItem from="1728900741959" duration="89465000" />
+      <workItem from="1728900741959" duration="94295000" />
     </task>
     <servers />
   </component>
