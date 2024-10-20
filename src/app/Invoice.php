@@ -1,54 +1,28 @@
 <?php
 
-namespace app;
+namespace App;
+
+use App\Exception\MissingBillingInfoException;
 
 class Invoice
 {
-    private string $id;
-
-    public function __construct(
-        public float $amount,
-        public string $description,
-        public string $creditCardNumber,
-    )
+    public function __construct(public Customer $customer)
     {
-        $this->id = uniqid('invoice');
-        var_dump('__construct');
     }
 
-    public static function create(): static
+    public function process(float $amount): void
     {
-        return new static();
-    }
+        if($amount <= 0) {
+            throw new \InvalidArgumentException('Invalid invoice amount');
+        }
 
-    public function __clone(): void
-    {
-        $this->id = uniqid('invoice');
-        var_dump('__clone');
-    }
+        if(empty($this->customer->getBillingInfo())) {
+            throw new MissingBillingInfoException();
+        }
 
-    public function __sleep(): array
-    {
-         return ['id', 'amount'];
-    }
-
-    public function __serialize(): array
-    {
-        return [
-            'id' => $this->id,
-            'description' => $this->description,
-            'amount' => $this->amount,
-            'creditCardNumber' => base64_encode($this->creditCardNumber),
-            'foo' => 'bar',
-        ];
-    }
-
-    public function __unserialize(array $data): void
-    {
-        $this->id = $data['id'];
-        $this->amount = $data['amount'];
-        $this->description = $data['description'];
-        $this->creditCardNumber = base64_decode($data['creditCardNumber']);
+        echo 'Processing $' . $amount . ' invoice - ';
+        sleep(1);
+        echo 'OK <br />';
     }
 
 }
