@@ -1,13 +1,16 @@
 <?php
 
-use \App\Invoice;
-use App\InvoiceAggregateCollection;
-use App\InvoiceCollection;
-
 require_once __DIR__ . '/../vendor/autoload.php';
 
-$invoiceCollection = new InvoiceAggregateCollection([new Invoice(100), new Invoice(200), new Invoice(300)]);
+//echo '<pre>';
+//print_r($_SERVER);
+//echo '</pre>';
 
-foreach ($invoiceCollection as $invoice) {
-    echo $invoice->id . ' : ' . $invoice->amount . '<br />';
-}
+$router = new \App\Router();
+
+$router
+    ->register('/', [\App\Classes\Home::class, 'index'])
+    ->register('/invoices', [\App\Classes\Invoice::class, 'index'])
+    ->register('/invoices/create', [\App\Classes\Invoice::class, 'create'])
+;
+echo $router->resolve($_SERVER['REQUEST_URI']);
