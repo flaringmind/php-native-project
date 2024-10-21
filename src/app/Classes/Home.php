@@ -8,6 +8,11 @@ class Home
 {
     public function index(): string
     {
-        return '<h1>HomePage</h1> <br />';;
+        setcookie(
+            'userName',
+            'Andrew',
+            time() + 24 * 60 * 60,
+        );
+        return 'Home';
     }
 }
