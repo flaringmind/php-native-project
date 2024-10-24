@@ -2,33 +2,60 @@
 
 declare(strict_types=1);
 
-namespace App\Classes;
+namespace App\Controllers;
 
-class Home
+use App\View;
+use PDO;
+
+class HomeController
 {
-    public function index(): string
+    public function index(): View
     {
-        return <<<FORM
-<form action="/upload" method="post" enctype="multipart/form-data">
-    <input type="file" name="receipt[]" />
-    <input type="file" name="receipt[]" />
-    <button type="submit">Upload</button>
-</form>
-FORM;
-    }
+        try {
+            $db = new PDO('mysql:host=' . $_ENV['DB_HOST'] . ';dbname=' . $_ENV['DB_DATABASE'],
+                $_ENV['DB_USER'],
+                $_ENV['DB_PASS']
+            );
+        } catch (\PDOException $e) {
+            throw new \PDOException($e->getMessage(), (int)$e->getCode());
+        }
 
-    public function upload()
-    {
-        echo '<pre>';
-        var_dump($_FILES);
-        echo '</pre>';
+            $email = 'dungeon@master4.com';
+            $name = 'Dungeon Master4';
+            $amount = 250;
 
-        $filePath = STORAGE_PATH . '/' . $_FILES['receipt']['name'];
+            try {
+                $db->beginTransaction();
+                $insertUserStmt = $db->prepare(
+                    'INSERT INTO users (email, full_name, is_active, created_at)
+                    VALUES (?, ?, 1, NOW())'
+                );
 
-        move_uploaded_file($_FILES['receipt']['tmp_name'], $filePath);
+                $insertInvoiceStmt = $db->prepare(
+                    'INSERT INTO invoices (amount, user_id)
+                    VALUES (?, ?)'
+                );
 
-        echo '<pre>';
-        var_dump(pathinfo($filePath));
-        echo '</pre>';
+                $insertUserStmt->execute([$email, $name]);
+                $userId = (int)$db->lastInsertId();
+                $insertInvoiceStmt->execute([$amount, $userId]);
+                $db->commit();
+            } catch (\Throwable $e) {
+                if($db->inTransaction()) {
+                    $db->rollBack();
+                }
+            }
+
+            $fetchStmt = $db->prepare(
+                'SELECT invoices.id AS invoice_id, amount, user_id, full_name
+                FROM invoices INNER JOIN users ON users.id = user_id
+                WHERE email = ?'
+            );
+            $fetchStmt->execute([$email]);
+            echo '<pre>';
+            var_dump($fetchStmt->fetch(PDO::FETCH_ASSOC));
+            echo '</pre>';
+
+        return View::make('index', ['foo' => 'bar']);
     }
 }

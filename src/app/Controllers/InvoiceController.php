@@ -2,23 +2,20 @@
 
 declare(strict_types=1);
 
-namespace App\Classes;
+namespace App\Controllers;
+
+use App\View;
 
 class InvoiceController
 {
-    public function index(): string
+    public function index(): View
     {
-        setcookie(
-            'userName',
-            'Andrew',
-            time() - 24 * 60 * 60,
-        );
-        return '<h1>Invoices</h1> <br />';
+        return View::make('invoices/index');
     }
 
-    public function create(): string
+    public function create(): View
     {
-        return '<form action="/invoices/create" method="post"><label>Enter the Amount</label><input type="text" name="amount"></form>';
+        return View::make('invoices/create');
     }
 
     public function store()
