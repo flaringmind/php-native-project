@@ -5,22 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34d00873-2b8e-4684-abbd-a6cd145d0a2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/App.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/DB.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Models/Invoice.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Models/Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Models/SignUp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Controllers/InvoiceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controllers/InvoiceController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Exceptions/ViewNotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Exceptions/ViewNotFoundException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/docker/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/error/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/error/404.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/invoices/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/invoices/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/invoices/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/invoices/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +116,7 @@
       <workItem from="1728900741959" duration="142934000" />
       <workItem from="1729594696092" duration="12621000" />
       <workItem from="1729707825067" duration="4635000" />
-      <workItem from="1729781586471" duration="13175000" />
+      <workItem from="1729781586471" duration="26012000" />
     </task>
     <servers />
   </component>

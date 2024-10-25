@@ -4,58 +4,35 @@ declare(strict_types=1);
 
 namespace App\Controllers;
 
+use App\App;
+use App\Models\Invoice;
+use App\Models\SignUp;
+use App\Models\User;
 use App\View;
-use PDO;
 
 class HomeController
 {
     public function index(): View
     {
-        try {
-            $db = new PDO('mysql:host=' . $_ENV['DB_HOST'] . ';dbname=' . $_ENV['DB_DATABASE'],
-                $_ENV['DB_USER'],
-                $_ENV['DB_PASS']
-            );
-        } catch (\PDOException $e) {
-            throw new \PDOException($e->getMessage(), (int)$e->getCode());
-        }
+        $db = App::db();
 
-            $email = 'dungeon@master4.com';
-            $name = 'Dungeon Master4';
-            $amount = 250;
+        $email = 'dungeon@master14.com';
+        $name = 'Dungeon Master14';
+        $amount = 250;
 
-            try {
-                $db->beginTransaction();
-                $insertUserStmt = $db->prepare(
-                    'INSERT INTO users (email, full_name, is_active, created_at)
-                    VALUES (?, ?, 1, NOW())'
-                );
+        $userModel = new User();
+        $invoiceModel = new Invoice();
 
-                $insertInvoiceStmt = $db->prepare(
-                    'INSERT INTO invoices (amount, user_id)
-                    VALUES (?, ?)'
-                );
+        $invoiceId = (new SignUp($userModel, $invoiceModel))->register(
+            [
+                'email' => $email,
+                'name' => $name,
+            ],
+            [
+                'amount' => $amount,
+            ]
+        );
 
-                $insertUserStmt->execute([$email, $name]);
-                $userId = (int)$db->lastInsertId();
-                $insertInvoiceStmt->execute([$amount, $userId]);
-                $db->commit();
-            } catch (\Throwable $e) {
-                if($db->inTransaction()) {
-                    $db->rollBack();
-                }
-            }
-
-            $fetchStmt = $db->prepare(
-                'SELECT invoices.id AS invoice_id, amount, user_id, full_name
-                FROM invoices INNER JOIN users ON users.id = user_id
-                WHERE email = ?'
-            );
-            $fetchStmt->execute([$email]);
-            echo '<pre>';
-            var_dump($fetchStmt->fetch(PDO::FETCH_ASSOC));
-            echo '</pre>';
-
-        return View::make('index', ['foo' => 'bar']);
+        return View::make('index', ['invoice' => $invoiceModel->find($invoiceId)]);
     }
 }
