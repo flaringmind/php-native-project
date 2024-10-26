@@ -19,10 +19,12 @@ define('VIEW_PATH', __DIR__ . '/../views');
     $router
         ->get('/', [HomeController::class, 'index'])
         ->get('/invoices', [InvoiceController::class, 'index'])
-        ->get('/download', [HomeController::class, 'download'])
         ->get('/invoices/create', [InvoiceController::class, 'create'])
         ->post('/invoices/create', [InvoiceController::class, 'store'])
-        ->post('/upload', [HomeController::class, 'upload']);
+
+        ->get('/upload', [HomeController::class, 'renderUpload'])
+        ->post('/upload', [HomeController::class, 'upload'])
+        ->get('/transactions', [HomeController::class, 'transactions']);
 
 (new App(
     $router,

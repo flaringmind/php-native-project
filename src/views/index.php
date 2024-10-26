@@ -16,7 +16,7 @@
                 Invoice Amount: <?= htmlspecialchars($invoice['amount'], ENT_QUOTES) ?><br />
                 User: <?= htmlspecialchars($invoice['full_name'], ENT_QUOTES) ?><br />
             <?php endif ?>
-
+            <a href="http://localhost:8000/upload">Загрузить историю транзакций</a>
         </div>
     </body>
 </html>
