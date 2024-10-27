@@ -2,6 +2,7 @@
 
 use App\App;
 use App\Container;
+use App\Controllers\GeneratorExampleController;
 use App\Controllers\HomeController;
 use App\Controllers\InvoiceController;
 use App\Router;
@@ -23,6 +24,7 @@ define('VIEW_PATH', __DIR__ . '/../views');
         ->get('/invoices', [InvoiceController::class, 'index'])
         ->get('/invoices/create', [InvoiceController::class, 'create'])
         ->post('/invoices/create', [InvoiceController::class, 'store'])
+        ->get('/examples/generator', [GeneratorExampleController::class, 'index'])
 
         ->get('/upload', [HomeController::class, 'renderUpload'])
         ->post('/upload', [HomeController::class, 'upload'])
