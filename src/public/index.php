@@ -19,16 +19,27 @@ define('VIEW_PATH', __DIR__ . '/../views');
     $container = new Container();
     $router = new Router($container);
 
-    $router
-        ->get('/', [HomeController::class, 'index'])
-        ->get('/invoices', [InvoiceController::class, 'index'])
-        ->get('/invoices/create', [InvoiceController::class, 'create'])
-        ->post('/invoices/create', [InvoiceController::class, 'store'])
-        ->get('/examples/generator', [GeneratorExampleController::class, 'index'])
+    $router->registerRoutesFromControllerAttributes(
+        [
+            HomeController::class,
+            InvoiceController::class,
+            GeneratorExampleController::class,
+        ]
+    );
+    echo '<pre>';
+        print_r($router->getRoutes());
+    echo '</pre>';
 
-        ->get('/upload', [HomeController::class, 'renderUpload'])
-        ->post('/upload', [HomeController::class, 'upload'])
-        ->get('/transactions', [HomeController::class, 'transactions']);
+
+//        ->get('/', [HomeController::class, 'index'])
+//        ->get('/invoices', [InvoiceController::class, 'index'])
+//        ->get('/invoices/create', [InvoiceController::class, 'create'])
+//        ->post('/invoices/create', [InvoiceController::class, 'store'])
+//        ->get('/examples/generator', [GeneratorExampleController::class, 'index'])
+//
+//        ->get('/upload', [HomeController::class, 'renderUpload'])
+//        ->post('/upload', [HomeController::class, 'upload'])
+//        ->get('/transactions', [HomeController::class, 'transactions']);
 
 (new App(
     $container,

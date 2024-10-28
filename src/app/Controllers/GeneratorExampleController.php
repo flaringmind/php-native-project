@@ -2,12 +2,15 @@
 
 namespace App\Controllers;
 
+use App\Attributes\Route;
+
 class GeneratorExampleController
 {
     public function __construct()
     {
     }
 
+    #[Route('/examples/generator')]
     public function index()
     {
         $numbers = $this->lazyRange(1, 10);
