@@ -5,38 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34d00873-2b8e-4684-abbd-a6cd145d0a2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/Controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/CustomMailer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Enums/EmailStatus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Enums/HttpMethod.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Enums/InvoiceStatus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Models/InvoiceItem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/eloquent_example.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eloquent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/email.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/users/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Enums/Color.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Attributes/Get.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Attributes/Get.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Attributes/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Attributes/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Attributes/Put.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Attributes/Put.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Attributes/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Attributes/Route.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Container.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Controllers/InvoiceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controllers/InvoiceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/DB.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Enums/InvoiceStatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Enums/InvoiceStatus.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Models/Invoice.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Models/Invoice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Models/Model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Models/SignUp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Models/Transaction.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Models/User.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Services/EmailService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Services/EmailService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/docker/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/eloquent_example.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eloquent.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/invoices/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/invoices/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +202,7 @@
       <workItem from="1730227143242" duration="5394000" />
       <workItem from="1730313301060" duration="8222000" />
       <workItem from="1730509197857" duration="4345000" />
-      <workItem from="1730559001502" duration="6893000" />
+      <workItem from="1730559001502" duration="13321000" />
     </task>
     <servers />
   </component>

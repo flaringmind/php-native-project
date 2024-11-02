@@ -1,12 +1,13 @@
 <?php
 
 use App\App;
-use App\Container;
+
 use App\Controllers\GeneratorExampleController;
 use App\Controllers\HomeController;
 use App\Controllers\InvoiceController;
 use App\Controllers\UserController;
 use App\Router;
+use Illuminate\Container\Container;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
@@ -18,10 +19,10 @@ define('VIEW_PATH', __DIR__ . '/../views');
 
     $router->registerRoutesFromControllerAttributes(
         [
-            HomeController::class,
+//            HomeController::class,
             InvoiceController::class,
-            GeneratorExampleController::class,
-            UserController::class,
+//            GeneratorExampleController::class,
+//            UserController::class,
         ]
     );
 

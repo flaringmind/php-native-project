@@ -14,7 +14,7 @@
             <?php if (!empty($invoice)): ?>
                 Invoice ID: <?= htmlspecialchars($invoice['invoice_id'], ENT_QUOTES) ?><br />
                 Invoice Amount: <?= htmlspecialchars($invoice['amount'], ENT_QUOTES) ?><br />
-                User: <?= htmlspecialchars($invoice['full_name'], ENT_QUOTES) ?><br />
+                User: <?= htmlspecialchars($invoice['status'], ENT_QUOTES) ?><br />
             <?php endif ?>
             <a href="http://localhost:8000/upload">Загрузить историю транзакций</a>
         </div>
