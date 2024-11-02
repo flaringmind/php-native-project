@@ -4,28 +4,33 @@ declare(strict_types=1);
 
 namespace App\Models;
 
+use App\Enums\InvoiceStatus;
+use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Ramsey\Collection\Collection;
+
+/**
+ * @property int $id
+ * @property string $invoice_number
+ * @property float $amount
+ * @property InvoiceStatus $status
+ * @property Carbon $created_at
+ * @property Carbon $due_date
+ * @property-read Collection $items
+ */
 class Invoice extends Model
 {
-    public function create(float $amount, int $userId): int
-    {
-        $stmt = $this->db->prepare(
-            'INSERT INTO invoices (amount, user_id)
-            VALUES (?, ?)'
-        );
+    CONST UPDATED_AT = null;
 
-        $stmt->execute([$amount, $userId]);
-        return (int) $this->db->lastInsertId();
-    }
+    protected $casts = [
+        'created_at' => 'datetime',
+        'due_date' => 'datetime',
+        'status' => InvoiceStatus::class,
+    ];
 
-    public function find(int $invoiceId): array
+    public function items(): HasMany
     {
-        $stmt = $this->db->prepare(
-            'SELECT invoices.id AS invoice_id, amount, full_name
-            FROM invoices INNER JOIN users ON users.id = user_id
-            WHERE invoices.id = ?'
-        );
-        $stmt->execute([$invoiceId]);
-        $invoice = $stmt->fetch();
-        return $invoice ?? [];
+        return $this->hasMany(InvoiceItem::class);
     }
 }

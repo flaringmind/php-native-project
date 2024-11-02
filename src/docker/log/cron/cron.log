@@ -1,0 +1,696 @@
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40
+
+Fatal error: Uncaught ReflectionException: Class "App\Models\Email" does not exist in /var/www/app/Container.php:40
+Stack trace:
+#0 /var/www/app/Container.php(40): ReflectionClass->__construct('App\\Models\\Emai...')
+#1 /var/www/app/Container.php(25): App\Container->resolve('App\\Models\\Emai...')
+#2 /var/www/app/Container.php(70): App\Container->get('App\\Models\\Emai...')
+#3 [internal function]: App\Container->App\{closure}(Object(ReflectionParameter))
+#4 /var/www/app/Container.php(56): array_map(Object(Closure), Array)
+#5 /var/www/app/Container.php(25): App\Container->resolve('App\\Services\\Em...')
+#6 /var/www/scripts/email.php(15): App\Container->get('App\\Services\\Em...')
+#7 {main}
+  thrown in /var/www/app/Container.php on line 40

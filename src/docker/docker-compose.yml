@@ -30,3 +30,13 @@ services:
       - ./storage/mysql:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
+
+  mailhog:
+    container_name: php-project-mailhog
+    image: mailhog/mailhog
+    restart: always
+    ports:
+      - "8025:8025"
+      - "1025:1025"
+    logging:
+      driver: "none"
