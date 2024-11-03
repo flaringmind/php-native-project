@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34d00873-2b8e-4684-abbd-a6cd145d0a2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/Services/Emailable/EmailValidationService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Contracts/EmailValidationInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Services/AbstractApi/EmailValidationService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Controllers/CurlController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controllers/CurlController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Controllers/GeneratorExampleController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Controllers/UserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Services/EmailService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Services/Emailable/EmailValidationService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Services/Emailable/EmailValidationService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Services/InvoiceService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Services/PaymentGatewayInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Services/SalesTaxService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Services/StripePayment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +209,7 @@
       <workItem from="1730227143242" duration="5394000" />
       <workItem from="1730313301060" duration="8222000" />
       <workItem from="1730509197857" duration="4345000" />
-      <workItem from="1730559001502" duration="22573000" />
+      <workItem from="1730559001502" duration="27888000" />
     </task>
     <servers />
   </component>

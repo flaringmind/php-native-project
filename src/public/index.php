@@ -20,10 +20,9 @@ define('VIEW_PATH', __DIR__ . '/../views');
 
     $router->registerRoutesFromControllerAttributes(
         [
-//            HomeController::class,
+            HomeController::class,
             InvoiceController::class,
             CurlController::class,
-//            UserController::class,
         ]
     );
 
