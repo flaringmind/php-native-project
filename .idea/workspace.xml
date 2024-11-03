@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34d00873-2b8e-4684-abbd-a6cd145d0a2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/DTO/EmailValidationResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Services/Shipping/BillableWeightCalculatorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Services/Shipping/PackageDimension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Services/Shipping/Weight.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Contracts/EmailValidationInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Contracts/EmailValidationInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Controllers/CurlController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controllers/CurlController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Services/AbstractApi/EmailValidationService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Services/AbstractApi/EmailValidationService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Services/Emailable/EmailValidationService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Services/Emailable/EmailValidationService.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +198,7 @@
       <workItem from="1730227143242" duration="5394000" />
       <workItem from="1730313301060" duration="8222000" />
       <workItem from="1730509197857" duration="4345000" />
-      <workItem from="1730559001502" duration="31638000" />
+      <workItem from="1730559001502" duration="38775000" />
     </task>
     <servers />
   </component>
