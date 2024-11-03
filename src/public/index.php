@@ -2,6 +2,7 @@
 
 use App\App;
 
+use App\Controllers\CurlController;
 use App\Controllers\GeneratorExampleController;
 use App\Controllers\HomeController;
 use App\Controllers\InvoiceController;
@@ -21,7 +22,7 @@ define('VIEW_PATH', __DIR__ . '/../views');
         [
 //            HomeController::class,
             InvoiceController::class,
-//            GeneratorExampleController::class,
+            CurlController::class,
 //            UserController::class,
         ]
     );
