@@ -18,6 +18,9 @@ class CurlController
     {
         $email = 'andro505@outlook.com';
         $result = $this->emailValidationService->verify($email);
+
+        var_dump($result->score, $result->isDeliverable);
+
         echo '<pre>';
         print_r($result);
     }
