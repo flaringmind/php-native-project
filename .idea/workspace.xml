@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34d00873-2b8e-4684-abbd-a6cd145d0a2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/Controllers/CurlController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Services/Emailable/EmailValidationService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Controllers/CurlController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controllers/CurlController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +108,13 @@
       <path value="$PROJECT_DIR$/src/vendor/illuminate/container" />
       <path value="$PROJECT_DIR$/src/vendor/opis/closure" />
       <path value="$PROJECT_DIR$/src/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/src/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/src/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/src/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/src/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/src/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/src/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/src/vendor/guzzlehttp/psr7" />
     </include_path>
   </component>
   <component name="ProjectId" id="2nCMZ1RTzsSncJuIwxE3BtaW6nF" />
@@ -190,7 +203,7 @@
       <workItem from="1730227143242" duration="5394000" />
       <workItem from="1730313301060" duration="8222000" />
       <workItem from="1730509197857" duration="4345000" />
-      <workItem from="1730559001502" duration="20265000" />
+      <workItem from="1730559001502" duration="22573000" />
     </task>
     <servers />
   </component>

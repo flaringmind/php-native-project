@@ -3,32 +3,22 @@
 namespace App\Controllers;
 
 use App\Attributes\Get;
+use App\Services\Emailable\EmailValidationService;
 
 class CurlController
 {
 
+    public function __construct(private EmailValidationService $emailValidationService)
+    {
+    }
+
     #[Get('/curl')]
     public function index()
     {
-        $handle = curl_init();
-        $apiKey = $_ENV['EMAILABLE_API_KEY'];
         $email = 'andro505@outlook.com';
-
-        $params = [
-            'api_key' => $apiKey,
-            'email' => $email,
-        ];
-        $url = 'https://api.emailable.com/v1/verify?' . http_build_query($params);
-        curl_setopt($handle, CURLOPT_URL, $url);
-        curl_setopt($handle, CURLOPT_RETURNTRANSFER, true);
-
-        $content = curl_exec($handle);
-
-        if($content !== false) {
-            $data = json_decode($content, true);
-            echo '<pre>';
-            print_r($data);
-        }
+        $result = $this->emailValidationService->verify($email);
+        echo '<pre>';
+        print_r($result);
     }
 
 }
