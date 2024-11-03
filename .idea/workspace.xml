@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34d00873-2b8e-4684-abbd-a6cd145d0a2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/Services/Shipping/BillableWeightCalculatorService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Services/Shipping/PackageDimension.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Services/Shipping/Weight.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/invoices/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Controllers/InvoiceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controllers/InvoiceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/docker/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +115,10 @@
       <path value="$PROJECT_DIR$/src/vendor/guzzlehttp/guzzle" />
       <path value="$PROJECT_DIR$/src/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/src/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/src/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/src/vendor/twig/intl-extra" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/intl" />
     </include_path>
   </component>
   <component name="ProjectId" id="2nCMZ1RTzsSncJuIwxE3BtaW6nF" />
@@ -198,7 +207,7 @@
       <workItem from="1730227143242" duration="5394000" />
       <workItem from="1730313301060" duration="8222000" />
       <workItem from="1730509197857" duration="4345000" />
-      <workItem from="1730559001502" duration="38775000" />
+      <workItem from="1730559001502" duration="44373000" />
     </task>
     <servers />
   </component>

@@ -11,14 +11,31 @@ use App\Enums\InvoiceStatus;
 use App\Models\Invoice;
 use App\View;
 use Symfony\Component\Mailer\MailerInterface;
+use Twig\Environment as Twig;
 
 class InvoiceController
 {
-    #[Get('/invoices')]
-    public function index(): View
+    public function __construct(private Twig $twig)
     {
-        $invoices = Invoice::query()->where('status', InvoiceStatus::Paid)->get()->toArray();
-        return View::make('invoices/index', ['invoices' => $invoices]);
+    }
+
+    #[Get('/invoices')]
+    public function index(): string
+    {
+        $invoices = Invoice::query()
+            ->where('status', InvoiceStatus::Paid)
+            ->get()
+            ->map(
+                fn(Invoice $invoice) => [
+                    'invoiceNumber' => $invoice->invoice_number,
+                    'amount'        => $invoice->amount,
+                    'status'        => $invoice->status->toString(),
+                    'dueDate'       => $invoice->due_date->toDateTimeString(),
+                ]
+            )
+            ->toArray();
+
+        return $this->twig->render('invoices/index.twig', ['invoices' => $invoices]);
     }
 
     #[Get('/invoices/new')]
