@@ -8,13 +8,11 @@ use App\App;
 use App\Attributes\Get;
 use App\Attributes\Post;
 use App\Attributes\Put;
-use App\Container;
-use App\Services\InvoiceService;
 use App\View;
 
 class HomeController
 {
-    public function __construct(private InvoiceService $invoiceService)
+    public function __construct()
     {
     }
 
@@ -22,8 +20,6 @@ class HomeController
     #[Get(routePath: '/home')]
     public function index(): View
     {
-        $this->invoiceService->process([], 5000);
-
         return View::make('index');
     }
 
