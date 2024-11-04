@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34d00873-2b8e-4684-abbd-a6cd145d0a2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/docker/xdebug.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Services/InvoiceService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Controllers/InvoiceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controllers/InvoiceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composer.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/docker/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/docker/nginx/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +40,7 @@
   </component>
   <component name="PhpServers">
     <servers>
-      <server host="" id="121f4c28-271d-489c-961b-66636e51f28d" use_path_mappings="true">
+      <server id="121f4c28-271d-489c-961b-66636e51f28d" use_path_mappings="true">
         <path_mappings>
           <mapping local-root="$PROJECT_DIR$/src/public" remote-root="/var/www/public" />
         </path_mappings>
@@ -47,9 +54,6 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
-      <path value="$PROJECT_DIR$/src/vendor/brick/math" />
-      <path value="$PROJECT_DIR$/src/vendor/ramsey/collection" />
-      <path value="$PROJECT_DIR$/src/vendor/ramsey/uuid" />
       <path value="$PROJECT_DIR$/src/vendor/composer" />
       <path value="$PROJECT_DIR$/src/vendor/graham-campbell/result-type" />
       <path value="$PROJECT_DIR$/src/vendor/vlucas/phpdotenv" />
@@ -85,50 +89,41 @@
       <path value="$PROJECT_DIR$/src/vendor/phpunit/phpunit" />
       <path value="$PROJECT_DIR$/src/vendor/psr/container" />
       <path value="$PROJECT_DIR$/src/vendor/symfony/deprecation-contracts" />
-      <path value="$PROJECT_DIR$/src/vendor/symfony/event-dispatcher" />
-      <path value="$PROJECT_DIR$/src/vendor/symfony/service-contracts" />
-      <path value="$PROJECT_DIR$/src/vendor/symfony/mime" />
-      <path value="$PROJECT_DIR$/src/vendor/symfony/polyfill-intl-normalizer" />
-      <path value="$PROJECT_DIR$/src/vendor/symfony/polyfill-intl-idn" />
-      <path value="$PROJECT_DIR$/src/vendor/symfony/mailer" />
-      <path value="$PROJECT_DIR$/src/vendor/symfony/event-dispatcher-contracts" />
-      <path value="$PROJECT_DIR$/src/vendor/egulias/email-validator" />
-      <path value="$PROJECT_DIR$/src/vendor/doctrine/lexer" />
-      <path value="$PROJECT_DIR$/src/vendor/psr/event-dispatcher" />
       <path value="$PROJECT_DIR$/src/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/src/vendor/illuminate/contracts" />
-      <path value="$PROJECT_DIR$/src/vendor/illuminate/database" />
-      <path value="$PROJECT_DIR$/src/vendor/illuminate/events" />
-      <path value="$PROJECT_DIR$/src/vendor/illuminate/macroable" />
-      <path value="$PROJECT_DIR$/src/vendor/illuminate/pipeline" />
-      <path value="$PROJECT_DIR$/src/vendor/illuminate/support" />
-      <path value="$PROJECT_DIR$/src/vendor/symfony/polyfill-php83" />
-      <path value="$PROJECT_DIR$/src/vendor/symfony/clock" />
-      <path value="$PROJECT_DIR$/src/vendor/voku/portable-ascii" />
-      <path value="$PROJECT_DIR$/src/vendor/symfony/translation" />
-      <path value="$PROJECT_DIR$/src/vendor/symfony/translation-contracts" />
-      <path value="$PROJECT_DIR$/src/vendor/nesbot/carbon" />
-      <path value="$PROJECT_DIR$/src/vendor/carbonphp/carbon-doctrine-types" />
-      <path value="$PROJECT_DIR$/src/vendor/psr/simple-cache" />
-      <path value="$PROJECT_DIR$/src/vendor/psr/clock" />
-      <path value="$PROJECT_DIR$/src/vendor/doctrine/inflector" />
-      <path value="$PROJECT_DIR$/src/vendor/illuminate/bus" />
-      <path value="$PROJECT_DIR$/src/vendor/illuminate/collections" />
-      <path value="$PROJECT_DIR$/src/vendor/illuminate/conditionable" />
-      <path value="$PROJECT_DIR$/src/vendor/illuminate/container" />
-      <path value="$PROJECT_DIR$/src/vendor/opis/closure" />
-      <path value="$PROJECT_DIR$/src/vendor/laravel/serializable-closure" />
       <path value="$PROJECT_DIR$/src/vendor/ralouphie/getallheaders" />
       <path value="$PROJECT_DIR$/src/vendor/psr/http-factory" />
-      <path value="$PROJECT_DIR$/src/vendor/psr/http-client" />
       <path value="$PROJECT_DIR$/src/vendor/psr/http-message" />
-      <path value="$PROJECT_DIR$/src/vendor/guzzlehttp/guzzle" />
-      <path value="$PROJECT_DIR$/src/vendor/guzzlehttp/promises" />
-      <path value="$PROJECT_DIR$/src/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/src/vendor/symfony/polyfill-php81" />
       <path value="$PROJECT_DIR$/src/vendor/twig/twig" />
       <path value="$PROJECT_DIR$/src/vendor/twig/intl-extra" />
       <path value="$PROJECT_DIR$/src/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/src/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/src/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/src/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/src/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/src/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/src/vendor/slim/psr7" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/src/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/src/vendor/slim/twig-view" />
     </include_path>
   </component>
   <component name="ProjectId" id="2nCMZ1RTzsSncJuIwxE3BtaW6nF" />
@@ -136,28 +131,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Constants": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary": "PHPUnit",
-    "last_opened_file_path": "C:/All_Study/PHP/native-php-project/src/storage",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "php.override.implement.member.chooser.php.doc": "NONE",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Constants&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary&quot;: &quot;PHPUnit&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/All_Study/PHP/native-php-project/src/storage&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\All_Study\PHP\native-php-project\src\storage" />
@@ -218,7 +214,8 @@
       <workItem from="1730227143242" duration="5394000" />
       <workItem from="1730313301060" duration="8222000" />
       <workItem from="1730509197857" duration="4345000" />
-      <workItem from="1730559001502" duration="51812000" />
+      <workItem from="1730559001502" duration="54435000" />
+      <workItem from="1730756291293" duration="1892000" />
     </task>
     <servers />
   </component>
