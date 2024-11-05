@@ -11,9 +11,9 @@ enum InvoiceStatus: int
     case Void    = 2;
     case Failed  = 3;
 
-    public function toString(): string
+    public static function toString(InvoiceStatus $status): string
     {
-        return match($this) {
+        return match($status) {
             self::Paid   => 'Paid',
             self::Failed => 'Declined',
             self::Void   => 'Void',

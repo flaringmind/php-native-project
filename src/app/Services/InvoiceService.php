@@ -14,7 +14,7 @@ class InvoiceService
     {
     }
 
-    public function getPaidInvoices(): array
+    public function getPaidInvoices()
     {
         return $this->em->createQueryBuilder()
             ->select('i')
