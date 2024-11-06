@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34d00873-2b8e-4684-abbd-a6cd145d0a2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/Entity/Invoice.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Entity/InvoiceItem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cli-config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/CustomMailer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Enums/InvoiceStatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Enums/InvoiceStatus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Services/InvoiceService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Services/InvoiceService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/docker/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/docker/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/docker/nginx/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/invoices/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/invoices/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/users/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +209,8 @@
       <workItem from="1730509197857" duration="4345000" />
       <workItem from="1730559001502" duration="54435000" />
       <workItem from="1730756291293" duration="4453000" />
-      <workItem from="1730821054235" duration="4769000" />
+      <workItem from="1730821054235" duration="6559000" />
+      <workItem from="1730903473644" duration="324000" />
     </task>
     <servers />
   </component>
